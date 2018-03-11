@@ -1,0 +1,31 @@
+.assetUpload {
+  display: flex;
+  flex-direction: column;
+}
+.imageList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: blueviolet;
+  height: 250px;
+}
+
+img {
+  width: 145px;
+  margin: 5px;
+}
+
+.sizeList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.assetList{
+  width: 150px;
+  height: 150px;
+  flex: 1 1 auto;
+  background-color: brown;
+  margin: 5px;
+}
