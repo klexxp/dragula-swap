@@ -7,7 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  background-color: blueviolet;
+  background-color: rgba(60, 60, 241, 0.342);
   height: 250px;
 }
 
@@ -26,6 +26,6 @@ img {
   width: 150px;
   height: 150px;
   flex: 1 1 auto;
-  background-color: brown;
+  background-color: rgba(206, 65, 65, 0.637);
   margin: 5px;
 }

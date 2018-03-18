@@ -19,13 +19,14 @@ export class AppComponent implements OnInit{
   images: Image[] = [];
   assets: object = {};
   sizes: string[] = [
-    '1x1', '1x2', '2x2', 'atmosphere', 'logo'
+    'Bucket 1', 'Bucket 2', 'Bucket 3', 'Bucket 4'
   ]
 
   constructor(
     private dragulaService: DragulaService,
     private sanitizer: DomSanitizer
   ) {  }
+
 
   ngOnInit() {
     this.dragulaService.dropModel.subscribe(args => {
