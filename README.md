@@ -1,4 +1,4 @@
-# Imagedrop
+# Dragula Swap
 
 ![alt text](https://github.com/klexxp/dragula-swap/blob/master/imagedrop.png)
 
